@@ -189,7 +189,7 @@ export const beers: Beer[] = [
     servingTemperature: "8-10°C",
     glassType: "Willibecher",
     taste: ["Schokolade", "Kaffee", "Pflaumen", "Karamell", "Nüsse"],
-    image: "/celebrator-doppelbock-beer.jpg",
+    image: "/dark-doppelbock-beer-bottle-glass-celebrator.jpg",
   },
   {
     id: "franziskaner-weissbier",
@@ -205,7 +205,7 @@ export const beers: Beer[] = [
     servingTemperature: "6-8°C",
     glassType: "Weizenglas",
     taste: ["Banane", "Zitrus", "Vanille", "Gewürznelke", "Fruchtig"],
-    image: "/franziskaner-wheat-beer.jpg",
+    image: "/golden-wheat-beer-weizen-glass-franziskaner.jpg",
   },
   {
     id: "jever-pilsener",
@@ -221,7 +221,7 @@ export const beers: Beer[] = [
     servingTemperature: "6-8°C",
     glassType: "Pilsglas oder Tulpe",
     taste: ["Hopfen", "Herb", "Grasig", "Zitrus", "Trocken"],
-    image: "/jever-pilsener-glass.jpg",
+    image: "/clear-golden-pilsner-beer-glass-jever.jpg",
   },
   {
     id: "maisel-weisse",
@@ -237,7 +237,7 @@ export const beers: Beer[] = [
     servingTemperature: "7-9°C",
     glassType: "Weizenglas",
     taste: ["Banane", "Nelke", "Honig", "Zitrus", "Weich"],
-    image: "/maisel-weisse-beer.jpg",
+    image: "/amber-wheat-beer-weizen-maisel.jpg",
   },
   {
     id: "rothaus-tannen-zapfle",
@@ -253,7 +253,7 @@ export const beers: Beer[] = [
     servingTemperature: "6-8°C",
     glassType: "Bierglas oder Humpen",
     taste: ["Hopfen", "Malz", "Ausgewogen", "Leicht herb", "Erfrischend"],
-    image: "/rothaus-pilsner-bottle.jpg",
+    image: "/golden-pilsner-beer-bottle-rothaus-tannenzapfle.jpg",
   },
 ]
 
