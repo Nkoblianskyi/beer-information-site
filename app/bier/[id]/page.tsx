@@ -12,8 +12,9 @@ export async function generateStaticParams() {
   }))
 }
 
-export async function generateMetadata({ params }: { params: { id: string } }) {
-  const beer = getBeerById(params.id)
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params
+  const beer = getBeerById(id)
 
   if (!beer) {
     return {
@@ -27,8 +28,9 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
   }
 }
 
-export default function BeerDetailPage({ params }: { params: { id: string } }) {
-  const beer = getBeerById(params.id)
+export default async function BeerDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params
+  const beer = getBeerById(id)
 
   if (!beer) {
     notFound()
