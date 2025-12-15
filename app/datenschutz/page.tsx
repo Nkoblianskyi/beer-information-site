@@ -27,7 +27,7 @@ export default function DatenschutzPage() {
                 <p>Musterstraße 123</p>
                 <p>80331 München</p>
                 <p>Deutschland</p>
-                <p className="mt-2">E-Mail: datenschutz@bierwissen.de</p>
+                <p className="mt-2">E-Mail: datenschutz@bierwissen.com</p>
               </div>
             </section>
 
@@ -92,8 +92,8 @@ export default function DatenschutzPage() {
               <h2 className="text-2xl font-semibold mb-4">5. Kontakt</h2>
               <p className="text-muted-foreground mb-3">Sie erreichen uns unter folgenden Kontaktdaten:</p>
               <div className="bg-muted/50 rounded p-4 text-sm">
-                <p>E-Mail: datenschutz@bierwissen.de</p>
-                <p>Telefon: +49 (0) 89 123456789</p>
+                <p>E-Mail: datenschutz@bierwissen.com</p>
+                <p>Telefon: +49 (0) 89 152422684</p>
               </div>
             </section>
 

@@ -53,7 +53,7 @@ export default function KontaktPage() {
                 <CardDescription>Schreiben Sie uns direkt eine E-Mail</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">info@bierwissen.de</p>
+                <p className="text-muted-foreground">info@bierwissen.com</p>
               </CardContent>
             </Card>
 

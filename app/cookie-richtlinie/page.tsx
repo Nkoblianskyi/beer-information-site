@@ -106,8 +106,8 @@ export default function CookieRichtliniePage() {
                 Wenn Sie weitere Fragen zu unserer Verwendung von Cookies haben, können Sie uns gerne kontaktieren:
               </p>
               <div className="bg-muted/50 rounded p-4 text-sm">
-                <p>E-Mail: datenschutz@bierwissen.de</p>
-                <p>Telefon: +49 (0) 89 123456789</p>
+                <p>E-Mail: datenschutz@bierwissen.com</p>
+                <p>Telefon: +49 (0) 89 152422684</p>
               </div>
             </section>
           </div>
